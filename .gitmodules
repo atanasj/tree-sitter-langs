@@ -186,7 +186,7 @@
 	url = https://github.com/LumaKernel/tree-sitter-prisma
 	branch = master
 	update = none
-	ignore = dirty  
+	ignore = dirty
 [submodule "repos/haskell"]
 	path = repos/haskell
 	url = https://github.com/tree-sitter/tree-sitter-haskell
@@ -202,6 +202,12 @@
 [submodule "repos/verilog"]
 	path = repos/verilog
 	url = https://github.com/tree-sitter/tree-sitter-verilog.git
+	branch = master
+	update = none
+	ignore = dirty
+[submodule "repos/r"]
+	path = repos/r
+	url = https://github.com/r-lib/tree-sitter-r.git
 	branch = master
 	update = none
 	ignore = dirty
